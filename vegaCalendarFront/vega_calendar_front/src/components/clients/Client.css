@@ -1,0 +1,162 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create-search-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9e9e9;
+    height: 35px;
+    padding: 8px;
+}
+
+.create-client-button{
+    color: #f1592a;
+    border: 0px;
+    background-color: #e9e9e9;
+}
+.create-client-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search-field{
+    width: 250px;
+}
+.alphabet-button{
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    color: #f1592a;
+}
+.alphabet-button:hover{
+    background-color: #f1592a;
+    color: white;
+    cursor: pointer;
+}
+
+.pressed{
+    background-color: #f1592a;
+    color: white;
+}
+.clients{
+    width: 100%;
+    height: 35px;
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+}
+.clients-container{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delete-button{
+    margin-right: 10px;
+}
+.client-name{
+    margin-left: 10px;
+    color: #9e9e9e;
+    font-weight: bold;
+}
+.pagination-button{
+    color: #f1592a;
+    border: 0px solid;
+    background-color: white;
+}
+.pagination-button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.disabled{
+    color: #9e9e9e;
+    text-decoration: none !important;
+    pointer-events: none;
+}
+
+.clients:hover{
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+.client-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expanded{
+    margin-bottom: 0px;
+    display: flex;
+}
+.expanded-client{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    height: 180px;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.expanded-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.expanded-content select{
+    padding: 7px;
+    width: 180px;
+    margin: 10px;
+}
+.expanded-content input{
+    padding: 7px;
+    width: 180px;
+    margin: 10px;
+}
+.label-field-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    align-items: baseline;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.update-button{
+    background-color: #52a552;
+    color:  white;
+    border: 0px solid;
+    width: 60px;
+    height: 25px;
+    margin-right: 10px;
+    
+}
+.update-button:hover{
+    background-color: #69a569;
+    cursor: pointer;
+}
+
+.delete-client-button{
+    background-color: #be3730;
+    color:  white;
+    border: 0px solid;
+    width: 60px;
+    height: 25px;
+    
+}
+.delete-client-button:hover{
+    background-color: #b4544f;
+    cursor: pointer;
+}

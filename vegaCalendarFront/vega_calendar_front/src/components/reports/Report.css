@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e9e9e9;
+    margin-bottom: 10px;
+}
+
+.filters{
+    display: flex;
+    
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.filter-select{
+    width: 180px;
+    margin: 10px;
+    height: 30px;
+}
+.date-picker{
+    width: 170px;
+    margin: 10px;
+    height: 30px;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button-container > button{
+    width: 75px;
+    height: 30px;
+    margin: 10px;
+}
+.search-button{
+    background-color: #52a552;
+    color: white;
+    border: 0px solid;
+}
+.search-button:hover{
+    background-color: #6f9b6f;
+    cursor: pointer;
+}
+.reset-button{
+    background-color: #f67d34;
+    color: white;
+    border: 0px solid;
+}
+.reset-button:hover{
+    background-color: #f8a572;
+    cursor: pointer;
+}
+.report-total{
+    background-color: #e9e9e9;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.report-total > label{
+    color: #9e9e9e;
+}
+#total-hours{
+    color: #f67d34 !important;
+    margin-left: 10px;
+    margin-right: 5px;
+}

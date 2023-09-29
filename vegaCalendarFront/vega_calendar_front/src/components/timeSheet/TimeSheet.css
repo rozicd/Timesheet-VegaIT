@@ -1,0 +1,103 @@
+.date-container{
+    background-color: #ececec;
+    height: 45px;
+    color: black;
+}
+#date-hr{
+    border-top: 1px solid #fff;
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+
+.btn{
+    color: #f1592a;
+    border: 0px;
+    background-color: #ececec;
+}
+.btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.month-table {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    border-collapse: collapse; /* Collapse the borders of table cells */
+  }
+  
+  .month-table td {
+    border: 1px solid #e9e9e9; /* Add borders to table header and cells */
+    padding: 1px 0px 0px 0px; /* Increase cell padding for a bigger cell */
+    text-align: center; /* Center align the text in cells */
+  }
+  
+  /* Adjust the width of table cells */
+  .month-table th {
+    width: 14%; /* You can adjust this percentage as needed */
+  }
+  .table-cells{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .table-cells p{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .table-cells label{
+    text-decoration: none;
+    color: #9e9e9e;
+    font-weight: bold;
+    font-size: 14px;    
+  }
+
+  .table-cells label:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .total-hours-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 45px;
+    background-color: #ececec;
+    align-items: center;
+  }
+  #hours{
+    color:#f1592a;
+    margin-right: 15px;
+  }
+  .total-hours-container label{
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .red-bg{
+    background-color: #f9e6e6;
+  }
+  .green-bg{
+    background-color: #f6f9e6;
+  }
+  .hour-per-day{
+    width: 100%;
+    height: 30px;
+  }
+  td{
+    padding: 0px;
+  }
+
+  .disabled-cell{
+    background-color: #e9e9e9;
+  }
+  .disabled-button{
+    pointer-events: none;
+  }
+  .status-label > input{
+    margin: 1px;
+  }
